@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo -i
 sudo apt-get update
 sudo yes Y | sudo apt-get install git build-essential cmake automake libtool autoconf
 git clone https://github.com/xmrig/xmrig.git
